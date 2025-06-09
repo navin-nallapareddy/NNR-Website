@@ -5,34 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Contact | Navin Nallapareddy</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
-        header, footer { background: #005a9c; color: white; padding: 1rem; text-align: center; }
-        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        body { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+        header, footer { background: #004080; color: white; padding: 1rem; text-align: center; }
+        nav { background: #003366; text-align: center; padding: 0.7rem 0; }
+        nav a { margin: 0 20px; color: white; text-decoration: none; font-weight: 600; font-size: 1rem; }
         nav a:hover { text-decoration: underline; }
-        main { padding: 2rem; max-width: 900px; margin: auto; }
+        nav i { margin-right: 8px; }
+        main { padding: 2rem; max-width: 1000px; margin: auto; }
+        .contact-item { font-size: 1.1rem; margin-bottom: 1rem; }
+        .contact-item i { color: #004080; margin-right: 10px; }
+        .button { display: inline-block; margin-top: 1rem; padding: 0.7rem 1.5rem; background-color: #004080; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .button:hover { background-color: #003366; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Navin Nallapareddy</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="experience.html">Experience</a>
-        <a href="skills.html">Skills</a>
-        <a href="awards.html">Awards</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <h1>Contact</h1>
 </header>
 
-<main>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:navinkalyanreddy@icloud.com">navinkalyanreddy@icloud.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/navin-nallapareddy" target="_blank">linkedin.com/in/navin-nallapareddy</a></p>
+<nav>
+    <a href="index.html"><i class="fas fa-home"></i>Home</a>
+    <a href="experience.html"><i class="fas fa-briefcase"></i>Experience</a>
+    <a href="skills.html"><i class="fas fa-graduation-cap"></i>Skills</a>
+    <a href="awards.html"><i class="fas fa-award"></i>Awards</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+</nav>
 
-    <h3>Resume</h3>
-    <p><a href="Navin_Nallapareddy_Resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+<main>
+    <div class="contact-item">
+        <i class="fas fa-envelope"></i> Email: <a href="mailto:navinkalyanreddy@icloud.com">navinkalyanreddy@icloud.com</a>
+    </div>
+    <div class="contact-item">
+        <i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/navin-nallapareddy" target="_blank">linkedin.com/in/navin-nallapareddy</a>
+    </div>
+
+    <a class="button" href="Navin_Nallapareddy_Resume.pdf" target="_blank"><i class="fas fa-download"></i> Download My Resume (PDF)</a>
 </main>
 
 <footer>

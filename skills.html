@@ -5,43 +5,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Skills & Certifications | Navin Nallapareddy</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
-        header, footer { background: #005a9c; color: white; padding: 1rem; text-align: center; }
-        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        body { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+        header, footer { background: #004080; color: white; padding: 1rem; text-align: center; }
+        nav { background: #003366; text-align: center; padding: 0.7rem 0; }
+        nav a { margin: 0 20px; color: white; text-decoration: none; font-weight: 600; font-size: 1rem; }
         nav a:hover { text-decoration: underline; }
-        main { padding: 2rem; max-width: 900px; margin: auto; }
+        nav i { margin-right: 8px; }
+        main { padding: 2rem; max-width: 1000px; margin: auto; }
+        .badge { display: inline-block; background: #004080; color: white; padding: 0.5rem 1rem; border-radius: 20px; margin: 0.3rem; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Navin Nallapareddy</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="experience.html">Experience</a>
-        <a href="skills.html">Skills</a>
-        <a href="awards.html">Awards</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <h1>Skills & Certifications</h1>
 </header>
+
+<nav>
+    <a href="index.html"><i class="fas fa-home"></i>Home</a>
+    <a href="experience.html"><i class="fas fa-briefcase"></i>Experience</a>
+    <a href="skills.html"><i class="fas fa-graduation-cap"></i>Skills</a>
+    <a href="awards.html"><i class="fas fa-award"></i>Awards</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+</nav>
 
 <main>
     <h2>Skills</h2>
-    <ul>
-        <li>Enterprise Applications</li>
-        <li>Business Systems Analysis</li>
-        <li>ERP Software</li>
-    </ul>
+    <div class="badge"><i class="fas fa-cogs"></i> Enterprise Applications</div>
+    <div class="badge"><i class="fas fa-chart-line"></i> Business Systems Analysis</div>
+    <div class="badge"><i class="fas fa-database"></i> ERP Software</div>
 
     <h2>Certifications</h2>
-    <ul>
-        <li>Microsoft Certified: Azure Fundamentals (AZ-900)</li>
-        <li>Project Management Professional (PMP)</li>
-        <li>Certified SAFe® 5 Agilist</li>
-        <li>Career Essentials in Generative AI</li>
-        <li>Microsoft Certified: Dynamics 365 Fundamentals (ERP)</li>
-    </ul>
+    <div class="badge"><i class="fab fa-microsoft"></i> Azure Fundamentals (AZ-900)</div>
+    <div class="badge"><i class="fas fa-project-diagram"></i> PMP</div>
+    <div class="badge"><i class="fas fa-agile"></i> SAFe Agile</div>
+    <div class="badge"><i class="fas fa-robot"></i> AI Essentials</div>
+    <div class="badge"><i class="fab fa-microsoft"></i> Dynamics 365 Fundamentals (ERP)</div>
 </main>
 
 <footer>
